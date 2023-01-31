@@ -1,9 +1,9 @@
-let a =5;
-let b=3;
-
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
-console.log(a**b);
+console.log(1>=100);
+console.log(1<=100);
+console.log(2===3);
+console.log(4==4);
+console.log(5===5);
+console.log(3!=5);
+console.log(7==="7");
+console
+console.log(3=="3");
