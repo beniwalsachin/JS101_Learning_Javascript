@@ -1,20 +1,4 @@
-let credentials_username="sachin";
-let credentials_password="sach";
+let my_bat="adidas";
+let his_bat="nike";
 
-let username="sachin";
-let password="sach";
-
-if(credentials_username==username){
-  if(credentials_password==password){
-
-    console.log("you can login");
-  }
-
-  
-else{
-  console.log("your username is not matching");
-}
-}
-  else{
-  console.log("your password is not matching");
-  }
+(my_bat==his_bat)? console.log("adidas bat is long"):console.log("nike bat is short");

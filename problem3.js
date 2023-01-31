@@ -1,16 +1,11 @@
-let a=5;
-let b=3;
+let shop="nike";
+ if((shop=="adidas")
 
-if(a>b){
-  console.log(" a is greater");
-}
-else if(b>a){
-  console.log("b is greater");
-}
-else if(a==b){
-  console.log("both are equal");
-}
-else{
-  console.log("NA");
-  
-}
+let result=54
+   switch(result){
+     case 1:console.log("pass");
+       break;
+     case 2:console.log("fail");
+     break;
+     default:console.log("na");
+   }

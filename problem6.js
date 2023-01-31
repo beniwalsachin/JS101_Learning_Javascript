@@ -1,17 +1,10 @@
-//let number=15;
-//if((number%3)==0){
-  //console.log("multiple of 3");
-//}
-//else{
-  //console.log("not multiple of 3");
-  
-//}
+//Given and character if it is a consonant print "Consonant"
 
-let a="N";
-if(a/"4"){
-  console.log("yes");
-  
-} 
+let character="a";
+
+if((character=="a") && (character=="e") && (character=="b")){
+  console.log("Consonant");
+}
 else{
-  console.log("no");
+  console.log("Not Consonant");
 }

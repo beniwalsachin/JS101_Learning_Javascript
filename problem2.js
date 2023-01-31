@@ -1,13 +1,7 @@
-let item_price=2500;
-let money_you_have=3500;
+let a=2;
+let b=1;
+(a==b)? console.log("a is greter"): console.log("b is greater")
 
-//if you can buy the item---> print"i bought the item
 
-//else print---> "i do not have enough money"
-if (money_you_have >= item_price){
-  console.log("i have buy the item");
-}
-  else{
-    console.log("i dont have money");
-  
-}
+console.log((5<3)&&(3>7)&&(4<8));
+
