@@ -1,10 +1,8 @@
-//Given and character if it is a consonant print "Consonant"
+let i=1;
+while(i<=15){
+  if(i%2===1){
+    console.log(i);
 
-let character="a";
-
-if((character=="a") && (character=="e") && (character=="b")){
-  console.log("Consonant");
-}
-else{
-  console.log("Not Consonant");
-}
+  }
+    i++;
+  }
