@@ -1,8 +1,7 @@
-let i=1;
-while(i<=15){
-  if(i%2===1){
-    console.log(i);
-
-  }
-    i++;
-  }
+for(var guest=1; guest<=10; guest++)
+{
+if(guest == 3){
+break;
+}
+console.log("guest ",guest,"got the train");
+}

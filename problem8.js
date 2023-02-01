@@ -1,10 +1,6 @@
-let a=0;
-let sum=0;
-while(a<=20){
-  if(a%3===0){
-    console.log(a);
-    sum=sum+a;
-  }
-  a++;
+var N = 5;
+var sum = 0;
+for(var i = 1; i<=N; i++){
+sum = sum + i;
 }
 console.log(sum);

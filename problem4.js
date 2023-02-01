@@ -1,5 +1,6 @@
-let a=35;
-console.log(a);
-v=++a;
-console.log(a);
-console.log(v);
+let star="";
+for (let i=1;i<=5;i++){
+ star=star+i+"*"; 
+}
+    console.log(star);
+  

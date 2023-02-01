@@ -1,5 +1,9 @@
-let number=1;
-while(number<=20){
-  console.log(number);
-  number++;
+var count = 1;
+for(var i = 1; i<10; i++)
+{
+if(i==5){
+continue;
 }
+count++;
+}
+console.log(count);

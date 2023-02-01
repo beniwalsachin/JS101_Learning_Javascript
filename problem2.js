@@ -1,7 +1,6 @@
-let a=5;
-console.log(a);
-
-a++;
-console.log(a);
-++a;
-console.log(a);
+let sum=0;
+for(let i=1; i<=5; i++){
+  sum=sum+i;
+  
+}
+console.log(sum);

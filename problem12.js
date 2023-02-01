@@ -1,12 +1,10 @@
-let a="goku";
-let b="goku";
-let c="gku";
- if((a==b) && (a==c)){
-   console.log("all names are same");
- }
-else if((b==a) && (b==c)){
-  console.log("a","b","c");
+for(var i = 1; i<=5; i++){
+console.log(i);
 }
-else{
-  console.log("all names are diffrent");
+
+
+var bag="";
+for(var i = 1; i<=5; i++){
+bag = bag + i + " ";
 }
+console.log(bag);

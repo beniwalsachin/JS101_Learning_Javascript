@@ -1,10 +1,6 @@
-let a=2;
-let average=(-2499);
-while(a<=100){
-  if(a%2===0){
-    console.log(a);
-    average= (average+a);
-  }
-  a++;
+var fact = 1;
+for(var i=1; i<=5;i++)
+{
+fact = fact * i;
+console.log(fact);
 }
-console.log(average);
